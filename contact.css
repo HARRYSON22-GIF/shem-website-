@@ -1,0 +1,156 @@
+*{
+    background-color: greenyellow;
+}
+body{
+    margin: 0;
+}
+table, th, td {
+    border: 1px solid;
+  }
+ P.table, th, td{
+    background-color: aqua;
+    border: rgb(51, 43, 58);
+    justify-content: center;
+    align-items: center;
+ }
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p{
+    font-size: 59px;
+    color: black;
+    text-align: center;
+}
+.p ol{
+    color: black;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-overflow: ellipsis;
+}
+.footer{
+    text-align: center;
+    justify-content: baseline;
+}
+.navbar ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(236, 82%, 33%, 0.904);
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.4s;
+
+}
+.navbar a{
+    color: rgba(192, 79, 26, 0.473);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+}
+.navbar a:hover{
+    background-color: hsla(240, 20%, 1%, 0.911);
+}
+.navbar li{
+    float: left ;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #33a11d;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #812626;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: san s-serif;
+}
+.input-box{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px;
+}
+.input-box label{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -
+    5px;
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #170b5f;
+    font-family: Arial;
+}
+.wrapper{
+ position: relative;
+ width: 500px;
+ height: 700px;
+ background: transparent;
+ background: url(FB_IMG_1723916146122.jpg);
+ border: 2px solid rgba(255, 255, 255, .5);
+ border-radius: 30px;   
+ box-shadow: 0 0 30px rgba(26, 197, 11, 0.473);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.input-box label{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+}
+.remember-forgot{
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 100px;
+    height: 45px;
+    background: #33a11d;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
